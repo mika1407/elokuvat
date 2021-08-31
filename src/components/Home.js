@@ -24,7 +24,7 @@ const Home = () => {
       text={state.results[0].overview}
       />
     ) : null}
-    <Grid header='Suositut Elokuvat'>
+    <Grid header='Suositut Elokuvat:'>
       {state.results.map(movie => (
           <Thumb
               key={movie.id}
