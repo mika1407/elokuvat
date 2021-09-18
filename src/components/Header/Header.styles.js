@@ -14,6 +14,15 @@ export const Content = styled.div`
   margin: 0 auto;
 `;
 
+export const Otsikko = styled.div`
+  color: var(--darkGrey);
+  font-size: var(--fontBig);
+  margin: 8px 0;
+  padding: 0 0 0 60px;
+  width: 95%;
+  height: 40px;
+`;
+
 export const LogoImg = styled.img`
   width: 200px;
 
