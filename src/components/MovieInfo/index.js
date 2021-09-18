@@ -26,6 +26,10 @@ const MovieInfo = ({ movie }) =>  (
           <p>{movie.overview}</p>
 
           <div className='rating-directors'>
+            <div> 
+              <h3>ENSI-ILTA</h3>
+              <div className='vvuosi'>{movie.release_date}</div>
+            </div>
             <div>
               <h3>ARVOSANA</h3>
               <div className='score'>{movie.vote_average}</div>

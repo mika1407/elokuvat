@@ -56,6 +56,12 @@ export const Text = styled.div`
     margin: 0;
   }
 
+  .vvuosi {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 100px;
+  }
+
   .director {
     margin: 0 0 0 40px;
 
