@@ -12,6 +12,12 @@ export const Content = styled.div`
   max-width: var(--maxWidth);
   padding: 20px 0;
   margin: 0 auto;
+  color: var(--darkGrey);
+
+  a {
+    color: var(--darkGrey);
+    text-decoration: none;
+  }
 `;
 
 export const Otsikko = styled.div`
@@ -25,6 +31,7 @@ export const Otsikko = styled.div`
 
 export const LogoImg = styled.img`
   width: 200px;
+  
 
   @media screen and (max-width: 500px) {
     width: 150px;
@@ -33,6 +40,7 @@ export const LogoImg = styled.img`
 
 export const TMDBLogoImg = styled.img`
   width: 100px;
+  margin: 0px 10px;
 
   @media screen and (max-width: 500px) {
     width: 80px;

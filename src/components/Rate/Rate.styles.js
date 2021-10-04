@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.button`
-  display: block;
-  background: var(--darkGrey);
+export const Wrapper = styled.div`
+
+button {
+  background: #3A549E;
   width: 25%;
-  min-width: 200px;
-  height: 60px;
+  min-width: 70px;
+  height: 50px;
   border-radius: 10px;
   color: var(--white);
   border: 0;
@@ -18,4 +19,5 @@ export const Wrapper = styled.button`
   :hover {
     opacity: 0.8;
   }
-`;
+}
+`
